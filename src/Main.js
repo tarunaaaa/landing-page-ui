@@ -1,9 +1,9 @@
 import React, { memo } from 'react'
-
+import Navbar from './Navbar'
 export default memo(function Main() {
   return (
     <div>
-      <h1>hello</h1>
+      <Navbar/>
     </div>
   )
 })
